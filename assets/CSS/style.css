@@ -1,20 +1,88 @@
 
 /*Editando o header e o Banner pegando os dados do figma */ 
 .banner{
+display: flex;
+align-items: center;
+justify-content: center;
 width: 1440px;
 height: 605px;
 gap: 0px;
 border: 0px 0px 1px 0px;
-opacity: 0px;
-background-color: red;
+background: url(../images/banner.png), linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(49, 168, 221, 0) 100%);
+border-bottom: 1px solid #33A8DB;
+
+
 }
 .banner-content{
+display: flex;
+align-items: center;
+flex-direction: column;
 width: Hug (510px)px;
 height: Hug (393px)px;
 top: 56px;
 left: 465px;
 gap: 16px;
 opacity: 0px;
-background-color: yellow;
 
 }
+
+.logo{
+width: 268px;
+height: 268px;
+gap: 0px;
+opacity: 0px;
+border-radius: 50%;
+background-color: red;
+display: flex;
+align-items: center;
+justify-content: center;
+background: #00000033;
+
+
+}
+
+h1{
+width: 434px;
+height: 47px;
+gap: 0px;
+opacity: 0px;
+font-family: Raleway;
+font-size: 40px;
+font-weight: 900;
+line-height: 46.96px;
+text-align: center;
+background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+}
+
+h1 + p {
+
+width: 510px;
+height: 46px;
+gap: 0px;
+opacity: 0px;
+font-family: Raleway;
+font-size: 20px;
+font-weight: 400;
+line-height: 23.48px;
+text-align: center;
+background: #FFFFFF;
+
+
+}
+
+p + button {
+    width: Fixed (326px)px;
+    height: Hug (57px)px;
+    top: 473px;
+    left: 557px;
+    padding: 19px 91px 19px 91px;
+    gap: 31px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    border: 2px solid;
+    border-image-source: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%);
+
+
+
+}
+
