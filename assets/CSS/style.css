@@ -101,3 +101,33 @@ p + button {
     text-transform: uppercase;
 }
 
+
+/* Ajustando a Main */ 
+
+#course-content{
+    background-color: red;
+    width: 800px;
+    height: 325px;
+    text-align: center;
+    
+}
+
+#transform-world{
+    height: 560px;
+    background-image: url(../images/woman-code.png);
+    background-size: cover;
+    background-attachment: fixed;
+    border-top: 1px solid #33A8DB80;
+    border-bottom: 1px solid #33A8DB80;
+}
+
+#transform-world p {
+    padding: 200px;
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-transform: lowercase;
+    max-width: 250px;
+    text-shadow: 3px 2px #33A8DB;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
